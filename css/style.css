@@ -1,0 +1,983 @@
+html
+{
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:  auto;
+    height: 150%;
+    background-size: cover;
+  
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body *, html * {
+  box-sizing: border-box;
+}
+
+.header1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+}
+.header {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+/*Фиксация----------------------------------------*/
+
+.menu
+{
+  width: 100%;
+  height: 7%;
+  z-index: 10; 
+   
+}
+.butt_m,
+.butt_r,
+.butt_p,
+.butt_t,
+.butt_a,
+.butt_c
+{
+     width: 100%;
+  height: 7%;
+  z-index: 10; 
+ font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 230%;
+text-align: center;
+color: rgba(255, 255, 255, 0.88);
+    text-decoration: none; 
+}
+/*Ссылка "Главная"----------------------------------------*/
+.butt_m::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.butt_m::before,
+.butt_m::after 
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.butt_m:hover {
+  font-weight: bold;
+}
+
+.butt_m
+{
+    position: absolute;
+width: 11%;
+left: 10%;
+top: 30%; 
+
+
+}
+
+/*Ссылка "Рейтинг"---------------------------------------*/
+.butt_r::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.butt_r::before,
+.butt_r::after 
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.butt_r:hover {
+  font-weight: bold;
+}
+
+.butt_r
+{
+    position: absolute;
+width: 11%;
+left: 25.8%;
+top: 30%;
+
+}
+
+/*Ссылка "Пазлы"---------------------------------------*/
+.butt_p::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.butt_p::before,
+.butt_p::after 
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.butt_p:hover {
+  font-weight: bold;
+}
+
+
+.butt_p
+{
+    position: absolute;
+width: 10%;
+left: 40.5%;
+top: 30%;
+}
+
+ /*Ссылка "Тесты"*/
+.butt_t::after 
+{
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.butt_t::before,
+.butt_t::after 
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.butt_t:hover 
+{
+  font-weight: bold;
+}
+
+
+.butt_t
+{
+    position: absolute;
+width: 11%;
+left: 52.5%;
+top: 30%;
+}
+
+/*Ссылка "О нас"---------------------------------------*/
+.butt_a::after 
+{
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.butt_a::before,
+.butt_a::after 
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.butt_a:hover 
+{
+  font-weight: bold;
+}
+
+.butt_a
+{
+    position: absolute;
+width: 11%;
+left: 65%;
+top: 30%;
+}
+
+/*Ссылка "Контакты"-----------------------------------*/
+.butt_c::after 
+{
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.butt_c::before,
+.butt_c::after 
+{
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.butt_c:hover {
+  font-weight: bold;
+}
+
+.butt_c
+{
+    position: absolute;
+width: 11%;
+left: 79%;
+top: 30%;
+}
+
+
+/*Лучшие фильмы разных времен-----------------------------*/
+.text
+{
+    position: absolute;
+width: 50%;
+left: 27%;
+top: 44%;
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 450%;
+line-height: 83px;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+/*Сайт, который позволит...-------------------------------*/
+.description
+{
+    position: absolute;
+width: 60%;
+left: 18.5%;
+top: 70%;
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 250%;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+/*Выбери период---------------------------------------*/
+.choice
+{
+    position: absolute;
+width: 30%;
+left: 33.5%;
+top: 95%; 
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 340%;
+line-height: 64px;
+    text-align: center;
+
+color: rgba(141, 11, 35, 0.88);
+}
+
+
+
+
+
+/*Обнуление Путіна*/
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 40;
+	box-sizing: border-box;
+}
+/*Стили для демонстрации*/
+#slider {
+	height: 100%;
+	background-color: #ffffff;
+    font-family: 'Play', sans-serif;
+	color: #fff;
+	font-size: 100%;
+}
+.wrapper{
+  position: sticky;
+     background-image: url(../img/film.jpg);
+    background-repeat: no-repeat;
+margin-top: 45%;
+	padding: 2.3%;
+	display: block;
+	justify-content:center;
+	align-items: center;
+    overflow: hidden;
+}
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    
+    background-color: #000;
+	display: flex;
+	align-items: center; 
+   
+}
+
+/* Слайд */
+.slick-slide0}
+/* Слайд активный */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	padding: 0% 1%;
+}
+
+@media (max-width:0%){
+	.slider {
+
+/padding: 0% 0%;
+	}
+}
+
+.slider .slick-arrow{
+   
+	position: absolute;
+
+	top: 50%;
+	margin: 0% 7% 0% 5%;
+	z-index: 1;
+	font-size: 0;
+	width: 30px;
+	height: 30px;
+
+
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url('../img/sl-arrow-l.svg') 0 0 / 30px no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url('../img/sl-arrow-r.svg') 0 0 / 30px no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+
+
+.slider_item {
+	padding: 0% 0%;  
+}
+.slider_item img{
+	max-width:100%;
+}
+
+
+.slider_item1:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: relative; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+}
+
+.slider_item2:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+.slider_item3:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+.slider_item4:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+.slider_item5:hover::after {
+  content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+.slider_item6:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+.slider_item7:hover::after {
+   content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+.slider_item8:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: inherit; 
+    left: 0%; right: 0%; bottom: 5%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: transparent; /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: "Play", sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста подсказки */
+    padding: 5% 10%; /* Поля */
+    border: 1% transparent;  
+   }
+
+
+
+
+
+
+section {
+  margin: 0 auto;
+  width: 100%;
+  display: inline-flex;
+  background-color: black;
+  padding: 5% 0;
+}
+
+.left_side {
+  width: 60%;
+}
+
+.my_hr {
+  background-image: url(../img/aline.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 17px;
+}
+
+.my_photo {
+  width: 90%;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.right_side {
+  width: 40%;
+  background-image: url(../img/info.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  vertical-align: top;
+}
+
+.info_label {
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+#setting {
+  box-sizing: content-box;
+  background-color: rgba(255, 255, 255, 0.91);
+  word-wrap: normal;
+  margin: 0 4%;
+  margin-top: 25%;
+  padding: 9%;
+}
+
+#span1 {
+  font-size: 2.5em;
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+}
+
+#span2 {
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+}
+
+.back
+{
+  width: 100%;
+    top: 305%;
+    overflow: hidden;
+  
+}
+.section1{
+position: absolute;
+width: 35%;
+height: 40%;
+left: 8%;
+    top: 340%;
+   
+ 
+}
+.text1{
+    position: absolute;
+width: 50%;
+height: 50%;
+left: 25%;
+top: 435%;
+color: #FFFFFF;
+font-size: 350%;
+line-height: 50%;
+font-family: Play;
+font-style: normal;
+font-weight: bold;
+    text-align: center
+}
+
+.image{
+    position: absolute;
+width: 20%;
+height: 10%;
+left: 57.9%;  
+top: 325%;
+}
+
+
+#rectangle01 {
+    margin: auto;
+    position: absolute;
+	width: 100%;
+	height: 460%; 
+top: 500%;
+	background: black;
+  
+}
+
+.line01 {
+  
+  position: absolute;
+width: 39%;
+top: 460%;
+left: 0;
+  
+}
+.inf {
+ 
+  top: 470%;
+    height: 80%;
+
+    position: absolute;
+  
+}
+.box1 {
+position: absolute;
+width: 63%;
+height: 50%;
+left: 10%;
+top: 490%;
+background: rgba(255, 255, 255, 0.86);
+ 
+}
+.text01 {
+  
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    font-family: 'Play', sans-serif;
+    text-align: left;
+    left: 10%;
+    top: 495%;
+
+
+}
+
+p {
+    width: 670px;
+    margin: 20px 0 0 60px;
+    font-size: 50px;
+}
+
+h3 {
+    margin: 0 0 0 60px;
+    font-size: 72px;
+}
+
+/* ..Кнопка */
+.bn {
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    left: 10%;
+    top: 555%;
+    filter: drop-shadow(0px 9px 15px rgba(219, 38, 38, 0.7));
+    background: black;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+    
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 230%
+
+}
+
+.bn:focus,
+.bn:active,
+.bn:hover {
+    outline: none;
+    background: rgba(219, 38, 38, 0.8);
+}
+
+
+
+/* .. Переход */
+
+
+
+.first p {
+    margin: 0;
+    background: white;
+    width: 710px;
+    height: 4px;
+}
+
+.second p {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background: rgba(141, 11, 35, 0.88);
+    border-radius: 100%;
+}
+
+/* ..Пазлы */
+
+.puzzle {
+
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    left: 54%;
+    top: 508%;
+}
+
+
+
+.line02 {
+    position: absolute;
+      width: 40%;
+  height: 17px;
+    top: 600%;
+    right: 0;
+}
+.circleshadow {
+    position: absolute;
+    top: 615%;
+
+}
+.rectangle {
+    position: absolute;
+width: 39%;
+height: 75%;
+right: 5%;
+top: 620%;
+background: rgba(255, 255, 255, 0.86);
+}
+.p {
+
+position: absolute;
+width: 20%;
+left: 55%;
+top: 624%;
+
+font-family: Play;
+font-style: normal;
+font-weight: bold;
+font-size: 320%;
+line-height: 100%;
+
+color: #443C39;
+
+}
+.p1{ 
+position: absolute;
+width: 31%;
+height: 155.65px;
+right: 10%;
+top: 646%;
+
+font-family:'Play';
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 49px;
+    color: #000000;
+}
+.six{
+    position:absolute;
+    font-family:'Play';
+    font-weight: bold;
+    color:#FFFFFF;
+    background: #000000;
+    width: 419px;
+    height: 92px;
+ top: 705%;
+    left:  56%;
+    font-size: 40px;
+    border-radius: 37px;
+    border: 2px solid #DB2626;
+    box-shadow: 0px 9px 15px 0px #DB2626;
+}
+.six:hover{
+    background-color:#DB2626;
+}
+.floating-button{
+    border: 3px #DB2626;
+}
+img.circleshadow {
+  animation: 60s linear 0s normal none infinite running circleshadow;
+  -webkit-animation: 60s linear 0s normal none infinite running circleshadow;
+}
+@keyframes circleshadow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes circleshadow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.bg {
+position: absolute;
+    width: 100%;
+height: 100%;
+    left: 0;
+
+top: 740%;
+    
+}
+ .line06 {
+  position: absolute;
+width: 45%;
+top: 740%;
+left: 0;
+}
+.box {
+position: absolute;
+width: 65%;
+height: 65%;
+left: 10%;
+top: 760%;
+background: rgba(255, 255, 255, 0.91);
+}
+.bg2 {
+    position: absolute;
+width: 100%;  
+height: 65%;
+left: 0;
+top: 920%;
+}
+.h106 {
+  position: absolute;
+width: 70%;
+    height: 60%;
+left: 14%;
+top: 765%;
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 500%;
+line-height: 120%;
+
+
+color: #443C39;
+}
+.text17 {
+position: absolute;
+width: 56%;
+height: 40%;  
+left: 10%;   
+top: 780%;  
+    text-align: left;
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 300%;
+    line-height: 120%;
+color: #000000;
+}
+.img {
+    position: absolute;
+width: 69%;   
+height: 79%;  
+left: 27%;       
+top: 819%;     
+}
+.media {
+    position: absolute;
+width: 30%;  
+height: 20%;  
+left: 35%;  
+top: 930%;  
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 300%;
+line-height: 195%;
+text-align: center;
+color: #FFFFFF;
+}
+.q {
+    position: absolute;
+width: 70%;
+height: 25%; 
+left: 11.5%;
+top: 937%;
+
+font-family: 'Play', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 250%;
+line-height: 200%;
+text-align: center;
+color: #FFFFFF;
+}
+.inst {
+    position: absolute;
+    height: 12%; 
+    width: 10%;
+left: 33%;  
+top: 960%;
+}
+.inst:hover {
+   
+    filter: drop-shadow(0px 0px 20px #FEF8F8);
+}
+.tel {
+    position: absolute;
+width: 15%;  
+height:12%;  
+left: 42.5%;  
+top: 960%;  
+}
+.tel:hover {
+ 
+    filter: drop-shadow(0px 0px 20px #FEF8F8);
+}
+.vko {
+        position: absolute;
+width: 15%;
+height: 12%;  
+left: 54%;
+top: 960%;  
+
+}
+    .vko:hover {
+  
+        filter: drop-shadow(0px 0px 20px #FEF8F8);
+}
+.line07 {
+    position: absolute;
+width: 45%;   
+
+left: 55%;   
+top: 918%;
+}
+
+
+
+
+
+
