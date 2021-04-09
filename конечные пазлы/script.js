@@ -1,4 +1,4 @@
-var img = ['http://www.rutage.com/wp-content/uploads/2015/09/Home-Alone-6.jpg','https://citaty.info/files/posters/3600.jpg','https://i.ytimg.com/vi/zwYMb55w7gA/maxresdefault.jpg','https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/f9d40e34-f5b2-49ca-9fe0-bbdd3e43da3a/300x450','https://thumbs.dfs.ivi.ru/storage38/contents/c/a/bfb96ed335a1f63670bca679994295.jpg','https://images11.domashnyochag.ru/upload/img_cache/7c1/7c1a1b70a8173318ed33553303c22fea_ce_612x460x0x0_cropped_666x444.webp'];
+var img = ['http://www.rutage.com/wp-content/uploads/2015/09/Home-Alone-6.jpg', 'https://citaty.info/files/posters/3600.jpg', 'https://i.ytimg.com/vi/zwYMb55w7gA/maxresdefault.jpg ', 'https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/f9d40e34-f5b2-49ca-9fe0-bbdd3e43da3a/300x45 0', 'https://thumbs.dfs.ivi.ru/storage38/contents/c/a/bfb96ed335a1f63670bca679994295.j pg', 'https://images11.domashnyochag.ru/upload/img_cache/7c1/7c1a1b70a8173318ed33553303c22fea_ce_612x460x0x0_cropped_666x444.webp'];
 var old = 5;
 var clicks = 0;
 function randomize() {
@@ -105,3 +105,5 @@ function drop(ev) {
     }    
   }  
 }
+
+
