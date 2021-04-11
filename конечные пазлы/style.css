@@ -13,7 +13,7 @@ body{
 
 .header_inner{
     max-width: 1600px;
-    margin: 0 20px;
+    margin: 100px 20px;
     display: flex;
 }
 
@@ -356,7 +356,7 @@ body {
        width:630px;
   height:630px;
   position:absolute;
-  top:50%;
+  top:85%;
   left:50%;
   transform:translate(-50%,-50%);
   border:3px dashed lightgray;
@@ -400,7 +400,7 @@ body {
   width:510px;
   height:510px;
   position:absolute;
-  top:50%;
+  top:85%;
   left:50%;
   transform:translate(-50%,-50%);
   border:3px dashed lightgray;
@@ -444,7 +444,7 @@ body {
   width:450px;
   height:450px;
   position:absolute;
-  top:50%;
+  top:85%;
   left:50%;
   transform:translate(-50%,-50%);
   border:3px dashed lightgray;
@@ -488,7 +488,7 @@ body {
   width:300px;
   height:300px;
   position:absolute;
-  top:50%;
+  top:85%;
   left:50%;
   transform:translate(-50%,-50%);
   border:3px dashed lightgray;
@@ -534,7 +534,7 @@ body {
   width:240px;
   height:240px;
   position:absolute;
-  top:50%;
+  top:40%;
   left:50%;
   transform:translate(-50%,-50%);
   border:3px dashed lightgray;
@@ -602,7 +602,7 @@ height: 60px;
 background: rgba(141, 11, 35, 0.88);
 border-radius: 50%;
 position: fixed;
-margin-top: -9%;
+margin: 10%;
 right: 5%;
 cursor: pointer;
 z-index: 200;
@@ -744,4 +744,14 @@ height: 5vw;
 
 }
 }
+.background{
+    background-color: black;
+    width: 100%;
+    max-width: 1600px;
+    
+}
 
+@media (max-width: 1170px){
+    .background{ max-height: 200px;
+    }
+}
