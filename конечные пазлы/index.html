@@ -50,6 +50,16 @@ $('#menu-burger').click(function () {
 
 </head>
 <body>
+    
+    
+     <div class="background">
+        <header class="header">
+            <div class="header_inner">
+               
+            </div>
+        </header>
+    
+    
     <div class="menu">
                     
          <a class="butt_m" href="buttom_main.html">Главная</a> 
@@ -66,6 +76,60 @@ $('#menu-burger').click(function () {
         </div>
 
     <div id="menu-burger">
+    
+
+        
+<div id="menu-burger" class="open">
+<span class="menu-icon open"></span>
+</div>        
+        
+        
+<div id="overlay-menu" class="open">
+<nav role="navigation">
+<ul>
+<li><a href="buttom_main.html">Главная</a> </li>
+
+<li><a href="button_rating.html">Рейтинг</a> </li>
+
+<li><a href="button_puzzle.html">Пазлы</a> </li>
+
+<li><a href="button_tests.html">Тесты</a> </li>
+
+<li><a href="button_about.html">О нас</a> </li>
+
+<li><a href="button_contacts.html">Контакты</a> </li>
+</ul>
+</nav>
+</div>
+        
+        
+        
+<script id="rendered-js">
+$('#menu-burger').click(function () {
+var overlayMenu = $('#overlay-menu'),
+menuIconLines = $('#menu-burger .menu-icon'),
+menuBurger = $('#menu-burger');
+
+if (overlayMenu.hasClass('open')) {
+overlayMenu.removeClass('open');
+menuIconLines.removeClass('open');
+menuBurger.removeClass('open');
+} else {overlayMenu.addClass('open');
+menuIconLines.addClass('open');
+menuBurger.addClass('open');
+};
+
+});
+</script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
   <span class="menu-icon"></span>
 </div>
 
