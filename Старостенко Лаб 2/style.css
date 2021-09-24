@@ -1,0 +1,192 @@
+body{
+   
+    background-image: url(img/Cer%C3%A2mica%20Villagres.jpg);
+    overflow-x: hidden;
+}
+
+.text{
+    position: absolute;
+width: 50%;
+height: 50%;
+left: 5%;
+top: 0%;
+color: #DC143C;
+font-size: 400%;
+line-height: 40%;
+font-family: Play;
+font-style:italic;
+font-weight:bold;
+}
+
+ table {
+    width: 40%; 
+    background: white; 
+    color: white; 
+    font-size: 150%;
+    font-family: Play;
+font-style:normal;
+font-weight:normal;
+     text-align:left;
+    border-spacing: 1px; 
+    margin-top: 20%;
+   }
+td, th {
+    background: #8B0000; 
+    padding: 20px; 
+    
+   }
+
+.image{
+    width: 50%;
+    height: 50%;
+    margin-top:-35%;
+    margin-left: 55%;
+}
+
+.image img {
+	transition: all 0.5s ease;
+}
+
+.image img:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+
+.image1{
+   width: 50%;
+    height: 50%;
+    margin-top:-5%;
+    margin-left: 77%;  
+}
+
+.image1 img {
+	transition: all 0.5s ease;
+}
+
+.image1 img:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.image2{
+   width: 50%;
+    height: 50%;
+    margin-top:-10%;
+    margin-left: 55%;  
+}
+.image2 img {
+	transition: all 0.5s ease;
+}
+
+.image2 img:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+
+.image3{
+   width: 50%;
+    height: 50%;
+    margin-top:-5%;
+    margin-left: 77%;  
+}
+.image3 img {
+	transition: all 0.5s ease;
+}
+
+.image3 img:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.text3{
+    position: absolute;
+width: 50%;
+height: 50%;
+left: 4%;
+top: 85%;
+color: #000000;
+font-size: 200%;
+line-height: 40%;
+font-family: Play;
+font-style:italic;
+font-weight:bold;
+}
+
+.spisok{
+    margin-top: -25%;
+    width: 40%;
+height: 50%;
+left: 5%;
+color: #000000;
+font-size: 150%;
+line-height: 100%;
+font-family: Play;
+font-style:italic;
+font-weight:normal;
+}
+
+.text4{
+    position: absolute;
+width: 50%;
+height: 50%;
+left: 4%;
+top: 118%;
+color: #000000;
+font-size: 200%;
+line-height: 40%;
+font-family: Play;
+font-style:italic;
+font-weight:bold;
+}
+
+.mark{
+ margin-top: 10%;
+    width: 40%;
+height: 50%;
+margin-left: 0%;
+color: #000000;
+font-size: 150%;
+line-height: 100%;
+font-family: Play;
+font-style:italic;
+font-weight:normal;   
+}
+
+.text5{
+    position: absolute;
+width: 60%;
+height: 50%;
+left: 33.5%;
+top: 150%;
+color: #8B0000;
+font-size: 200%;
+line-height: 90%;
+font-family: Play;
+font-style:italic;
+font-weight:normal;
+text-align: justify;
+}
+
+.image5{
+   width: 50%;
+    height: 50%;
+    margin-top:7%;
+    margin-left: 2%;  
+}
+
+.image6{
+   width: 50%;
+    height: 50%;
+    margin-top:3%;
+    margin-left: 10%;  
+}
+
+.opr{
+    margin-top: 5%;
+    font-size: 150%;
+    font-family: Play;
+font-style:italic;
+font-weight:normal;
+}
