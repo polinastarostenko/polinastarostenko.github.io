@@ -1,0 +1,185 @@
+body{
+    overflow-x: hidden;
+}
+.image1{
+    display: flex;
+    margin-top: -10%;
+    margin-left: -14%;
+}
+.my{
+     
+width: 50%;
+height: 50%;
+margin-left: 10%;
+margin-top: -40%;
+color: #000000;
+font-size: 400%;
+line-height: 90%;
+font-family: Ubuntu Condensed;
+font-style:normal;
+font-weight:bold;
+}
+
+.text{
+     
+width: 30%;
+height: 50%;
+margin-left: 10%;
+margin-top: -3%;
+color: #000000;
+font-size: 130%;
+line-height: 90%;
+font-family: Ubuntu Condensed;
+font-style:normal;
+font-weight:lighter;
+}
+
+.text1{
+     
+width: 50%;
+height: 50%;
+margin-left: 45%;
+margin-top: 16%;
+color: #000000;
+font-size: 300%;
+line-height: 100%;
+font-family: Ubuntu Condensed;
+font-style:normal;
+font-weight:bold;
+}
+
+.text2{
+     
+width: 90%;
+height: 50%;
+margin-left: 5%;
+margin-top: 1%;
+color: #000000;
+font-size: 200%;
+line-height: 100%;
+font-family: Ubuntu Condensed;
+font-style:normal;
+font-weight:lighter;
+text-align: justify;
+}
+
+.adaptivny-slayder {
+  position: relative;
+  max-width: 680px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.adaptivny-slayder input[name="kadoves"] {
+  display: none;
+}
+
+.kadoves {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.kadoves label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#slaid1:checked~.kadoves label[for="slaid1"] {
+  background-color: white;
+    
+}
+
+#slaid2:checked~.kadoves label[for="slaid2"] {
+  background-color: white;
+}
+
+#slaid3:checked~.kadoves label[for="slaid3"] {
+  background-color: white;
+}
+
+.adaptivny-slayder-lasekun {
+  overflow: hidden;
+   
+}
+
+.abusteku-deagulus {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s;
+    height: 580px;
+}
+
+.abusteku-deagulus img {
+  width: 100%;
+  flex-shrink:0;
+}
+
+#slaid1:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+  transform: translate(0);
+}
+
+#slaid2:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-100%);
+}
+
+#slaid3:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+  transform: translateX(-200%);
+}
+
+.image2{
+    display: flex;
+    margin-top: 8%;
+    margin-left: -3%;
+}
+
+.text4{
+width: 50%;
+height: 50%;
+margin-left: 30%;
+margin-top: -37%;
+color: #000000;
+font-size: 300%;
+line-height: 40%;
+font-family: Ubuntu Condensed;
+font-style:italic;
+font-weight:bold;
+}
+
+.mark{
+ margin-top: -1%;
+    width: 40%;
+height: 50%;
+margin-left: 30%;
+color: #000000;
+font-size: 200%;
+line-height: 140%;
+font-family: Ubuntu Condensed;
+font-style:italic;
+font-weight:normal;   
+}
+
+.image3{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 34%;
+}
+.image3 img {
+	transition: all 0.5s ease;
+}
+
+.image3 img:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0);
+	transform: scale(1.2);
+}
+
+ ПОРАБОТАТЬ СО ШРИФТАМИ 
