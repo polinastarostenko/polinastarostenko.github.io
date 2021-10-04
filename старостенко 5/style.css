@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+}
+.image1{
+    margin-left: -14%;
+    margin-top: -2%;
+    display: flex;
+}
+
+.tex1{
+     width: 50%;
+height: 50%;
+margin-left: 10%;
+margin-top: -25%;
+color: #ffffff;
+font-size: 400%;
+line-height: 90%;
+font-family: IBM Plex Sans;
+font-style:italic;
+font-weight:900;
+}
+
+.image2{
+    margin-left: 8%;
+    margin-top: 4%;
+    display: flex;
+}
+.image3{
+    margin-left: 0%;
+    margin-top: -18%;
+    display: flex;
+}
+.tab{
+    margin-top: 20%;
+}
+.t1{
+    width: 50%;
+   font-size: 200%;
+line-height: 90%;
+font-family: play;
+font-style:italic;
+font-weight:normal; 
+text-align: justify;
+}
+.t2{
+    width: 50%;
+   font-size: 200%;
+line-height: 90%;
+font-family: play;
+font-style:normal;
+font-weight:bold; 
+text-align: justify;
+    text-align: center;
+} 
+.image5{
+    margin-top: -6.8%;
+}
+.image6{
+  margin-left: 4%;
+    margin-top: -34%;
+    display: flex;
+   
+}
+.image7{
+  margin-left: 36%;
+    margin-top: -11%;
+    display: flex;
+   
+}
+.image8{
+  margin-left: 68%;
+    margin-top: -12%;
+    display: flex;
+   
+}
+.vol1{
+    margin-left: -8%;
+margin-top: 3%;
+color: #ffffff;
+    width: 50%;
+   font-size: 200%;
+line-height: 90%;
+font-family: play;
+font-style:normal;
+font-weight:bold; 
+text-align: justify;
+    text-align: center; 
+}
+.vol2{
+    margin-left: 25%;
+margin-top: -5%;
+color: #ffffff;
+    width: 50%;
+   font-size: 200%;
+line-height: 90%;
+font-family: play;
+font-style:normal;
+font-weight:bold; 
+text-align: justify;
+    text-align: center; 
+}
+.vol3{
+    margin-left: 58%;
+margin-top: -5%;
+color: #ffffff;
+    width: 50%;
+   font-size: 200%;
+line-height: 90%;
+font-family: play;
+font-style:normal;
+font-weight:bold; 
+text-align: justify;
+    text-align: center; 
+}
+
+.image9{
+  margin-left: 30%;
+    margin-top: 10%;
+    
+    display: flex;
+   
+}
+.image10{
+  margin-left: 45%;
+    margin-top: -8%;
+    
+    display: flex;
+   
+}
+.image11{
+  margin-left: 59%;
+    margin-top: -8%;
+    
+    display: flex;
+}
