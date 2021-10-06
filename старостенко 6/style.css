@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(img/photo-1508672019048-805c876b67e2.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.t1{
+padding-left: 29%;     
+padding-top: 7%;
+color: #000000;
+font-size: 800%;
+line-height: 120%;
+font-family: Love Ya Like A Sister;
+font-style:italic;
+font-weight:bold;
+}
+.t2{
+padding-top: 4%;
+padding-left: 42%;
+  color: #000000;
+font-size: 600%;
+line-height: 120%;
+font-family: Parisienne;
+font-style:italic;
+font-weight:bold;  
+}
+.imagesItaly{
+    display: flex;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    
+}
+.textitaly{
+    width: 86%;
+  padding-left: 13%;
+  color: #000000;
+font-size: 200%;
+line-height: 120%;
+font-family: Play;
+font-style:normal;
+font-weight:lighter;  
+text-align: center;
+}
+hr
+{
+     border: none; /* Убираем границу */
+    background-color: DarkGray; /* Цвет линии */
+ 
+    height: 2px; /* Толщина линии */
+    width: 900px;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+.t3{
+padding-top: 4%;
+padding-left: 42%;
+  color: #000000;
+font-size: 600%;
+line-height: 120%;
+font-family: Parisienne;
+font-style:italic;
+font-weight:bold;  
+}
+.imagesGeorgia{
+    display: flex;
+    padding-left: 2.5%;
+    padding-top: 2%;
+}
+.textgry{
+    width: 86%;
+  padding-left: 13%;
+  color: #000000;
+font-size: 200%;
+line-height: 120%;
+font-family: Play;
+font-style:normal;
+font-weight:lighter;  
+text-align: center;
+}
+
+.t4{
+padding-top: 4%;
+padding-left: 32%;
+  color: #000000;
+font-size: 600%;
+line-height: 120%;
+font-family: Parisienne;
+font-style:italic;
+font-weight:bold;  
+}
+.imagesAmsterdam{
+    display: flex;
+    padding-left: 2.5%;
+    padding-top: 2%;
+}
+.textam{
+    width: 86%;
+  padding-left: 13%;
+  color: #000000;
+font-size: 200%;
+line-height: 120%;
+font-family: Play;
+font-style:normal;
+font-weight:lighter;  
+text-align: center;
+}
+.sp{
+    margin-left: 25%;
+}
+.spisok {
+    width: 290px;
+  }
+.spisok1{
+  font-size: 150%;  
+}
+  .psis{
+    font-size: 24px;
+    text-align: center;
+      font-family: Play;
+font-style:normal;
+font-weight:bold;  
+margin-left: -14%;
+      font-size: 200%;
+  }
+
+  .spisok .spisok1 {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .spisok, .spisok input, .spisok textarea {
+    width: 80%;
+    margin: 5px 0;
+    padding: 5px 15px;
+  }
