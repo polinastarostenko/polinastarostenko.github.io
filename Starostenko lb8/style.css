@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.section1{
+    background-image: url('img/Group%203%20(4).png');
+     width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover; 
+}
+
+.tex{
+    width: 30%;
+   color: #ffffff;
+font-size: 600%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:bold;
+padding-top: 7%;
+    padding-left: 10%;
+    
+}
+
+.knop{
+    width: 20%;
+    margin-left: 9%;
+}
+
+.section2{
+     background-color: #0D0E19;
+    padding-top: 50%;
+    height: 115vw;
+}
+
+.text{
+     color: #ffffff;
+font-size: 500%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:bold;  
+text-align: center;
+margin-top: -45%;
+}
+
+.img1{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}	
+
+.img1:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+
+.img2{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}
+
+.img2:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.img3{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}
+
+.img3:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+hr
+{
+     border: none; /* Убираем границу */
+    background-color: DarkGray; /* Цвет линии */
+ 
+    height: 2px; /* Толщина линии */
+    width: 900px;
+    margin-top: 4%;
+    margin-left: 15%;
+    
+}
+
+
+.img4{
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+.photo1{
+    width: 30%;
+    margin-top: 4%;
+    margin-left: 3%;
+    height: 24vw;
+}
+
+.photo2{
+    width: 60%;
+    height: 24vw;
+    margin-left: 3%;
+}
+
+.mar{
+    color: #ffffff;
+font-size: 500%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:bold;  
+margin-left: 74%;
+margin-top: -55%; 
+}
+
+.tet{
+    color: #ffffff;
+font-size: 130%;
+line-height: 120%;
+font-family: play;
+font-style:normal;
+font-weight:lighter;  
+margin-left: 36%;
+margin-top: -1%;
+    width: 60%;
+    text-align: justify;
+}
+
+.section3{
+      background-color: #0D0E19;
+   padding-top: -90%;
+    height: 5vw;
+    
+}
+
+.m{
+  color: #ffffff;
+font-size: 200%;
+line-height: 120%;
+font-family:Iceland ;
+font-style:normal;
+font-weight:lighter;  
+
+    text-align:center;  
+}
