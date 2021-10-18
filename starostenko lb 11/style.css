@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.section1{
+    background-color: #E5E9EF;
+    width: 100%;
+    display: flex;
+}
+
+.img1{
+    width: 50%;
+
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  
+}
+.img1:hover{
+ 
+   
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+
+.text1{
+      width: 50%;
+   color: #7C8A9C;
+font-size: 500%;
+line-height: 120%;
+font-family: Cormorant Garamond;
+font-style:italic;
+font-weight:bold;
+margin-top: 9%;
+margin-left: 9%;
+}
+
+.text2{
+   width: 50%;
+   color: #908F91;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+margin-top: 27%;
+margin-left: -40%;  
+}
+
+.section2{
+    display: flex;
+}
+
+.img2{
+    width: 50%;
+     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  
+}
+.img2:hover{
+ 
+   
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+
+.text3{
+ width: 38%;
+   color: #767373;
+font-size: 200%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: center; 
+padding-top: 9%;
+    padding-left: 11%;
+}
+
+.section3{
+   background-color: #E5E9EF;
+    height: 150vw;
+}
+
+
+.ph{
+    width: 40%;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+.tex{
+
+   width: 50%;
+   color: #EDEFF2;
+font-size: 700%;
+line-height: 120%;
+font-family: Cormorant Garamond;
+font-style:italic;
+font-weight:bold;
+margin-left: 47%;
+    margin-top: -18%;
+
+}
+
+.tex1{
+ width: 30%;
+   color: #767373;
+font-size: 200%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: center; 
+margin-left: 35%; 
+    margin-top: -4%;
+}
+
+
+.blok1{
+    display: flex;
+    padding-top: 9%;
+     
+}
+
+
+
+.i1{
+    width: 30%;
+    margin-left: 2%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+
+.i1:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+
+.i2{
+    width: 30%;
+    margin-left: 3%;
+     filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+.i2:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+.i3{
+    width: 30%;
+    margin-left: 3%;
+      filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+.i3:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.blok2{
+    display: flex;
+    padding-top: 5%;
+     
+}
+
+
+
+.i4{
+    width: 30%;
+    margin-left: 17%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+
+.i4:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+
+.i5{
+    width: 30%;
+    margin-left: 7%;
+     filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+.i5:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.t{
+ width: 70%;
+   color: #767373;
+font-size: 200%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: center; 
+margin-left: 16%; 
+    margin-top: 13%;
+}   
+
+.section4{
+    display: flex;
+    margin-top: 15%;
+}
+
+.im1{
+    width: 20%;
+    margin-left: 95%;
+}
+
+.im2{
+    width: 20%;
+    margin-left: 35%;
+}
+
