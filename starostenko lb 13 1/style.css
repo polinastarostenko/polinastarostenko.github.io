@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.tex1{
+    
+  color: #000000;
+font-size: 600%;
+line-height: 120%;
+font-family: Fraunces;
+font-style:normal;
+font-weight:bold;  
+text-align: center;
+    padding-top: 2%;
+}
+.phph{
+    background-color: #6B657E;
+    width: 40%;
+    height: 40vw;
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+.ph2{
+    
+    width: 63%;
+}
+.meal{
+  color: #000;
+font-size: 500%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:italic;
+font-weight:bold;  
+padding-left: 17%;
+ margin-top: -89%;
+    
+}
+.maell{
+ color: #ffffff;
+font-size: 95%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:normal;
+font-weight:normal;  
+padding-left: 57%;
+ margin-top: 40%;
+
+text-align: right;
+
+    }
+
+.phph1{
+    background-color: #C46F6E;
+    width: 40%;
+    height: 40vw;
+    margin-top: 13%;
+    margin-left: 3%;
+}
+.ph3{
+    
+    width: 50%;
+    padding-top: 12.4%;
+}
+
+.meal1{
+  color: #000;
+font-size: 500%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:italic;
+font-weight:bold;  
+padding-left: 35%;
+ margin-top: -74%;
+    
+}
+.maell1{
+ color: #ffffff;
+font-size: 95%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:normal;
+font-weight:normal;  
+padding-left: 57%;
+ margin-top: 20%;
+
+text-align: right;
+
+    }
+
+.blok1{
+    display: flex;
+    margin-top: -6%;
+}
+
+
+
+
+
+
+.phph2{
+    background-color: #C46F6E;
+    width: 40%;
+    height: 40vw;
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+.ph4{
+   margin-left: 37.1%; 
+    width: 63%;
+}
+.meal2{
+  color: #000;
+font-size: 500%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:italic;
+font-weight:bold;  
+padding-left: 5%;
+ margin-top: -89%;
+    
+}
+.maell2{
+ color: #ffffff;
+font-size: 95%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:normal;
+font-weight:normal;  
+margin-left: 2%;
+ margin-top: 22%;
+width: 35%;
+text-align:left;
+
+    }
+
+.phph3{
+    background-color: #6B657E;
+    width: 40%;
+    height: 40vw;
+    margin-top: 13%;
+    margin-left: 3%;
+}
+.ph5{
+    
+    width: 50%;
+    padding-top: 24%;
+    margin-left: 50%;
+}
+
+.meal3{
+  color: #000;
+font-size: 500%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:italic;
+font-weight:bold;  
+padding-left: 20%;
+ margin-top: -87%;
+    
+}
+.maell3{
+ color: #ffffff;
+font-size: 95%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:normal;
+font-weight:normal; 
+ margin-left: 4%;
+ margin-top: 25%;
+width: 35%;
+text-align:left;
+   
+
+    }
+
+.blok2{
+    display: flex;
+    margin-top: -10%;
+}
+
+hr
+{
+     border: none; /* Убираем границу */
+    background-color: DarkGray; /* Цвет линии */
+ 
+    height: 2px; /* Толщина линии */
+    width: 900px;
+    margin-top: 6%;
+    margin-left: 15%;
+    
+}
+
+.img1{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}	
+
+.img1:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+
+.img2{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}
+
+.img2:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.img3{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}
+
+.img3:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.blok6{
+    display: flex;
+    margin-top: 7%;
+}
+
+.t{
+  width: 50%;
+   color: #000;
+font-size: 300%;
+line-height: 120%;
+font-family: IIBM Plex Sans;
+font-style:italic;
+font-weight:bold;
+margin-top: 10%;
+margin-left: 33%; 
+text-align: justify;   
+}
+
+.im1{
+    width: 20%;
+    margin-left: 95%;
+}
+
+.im2{
+    width: 20%;
+    margin-left: 35%;
+}
