@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.section1{
+    background-image: url('img/ehvITrnzZTA.jpg');
+     width: 100%;
+    background-repeat: no-repeat;
+    height: 130vh;
+    background-size: cover; 
+    display: flex;
+}
+
+.text{
+      width: 50%;
+   color: #ffffff;
+font-size: 500%;
+line-height: 120%;
+font-family: Viaoda Libre;
+font-style:italic;
+font-weight:bold;
+padding-top: 9%;
+padding-left: 8%;
+
+}
+
+.text1{
+     width: 30%;
+   color: #ffffff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+margin-top: 45%;
+margin-left: 19%; 
+text-align: right;
+}
+
+.section2{
+    background-color: #E8E3DF;
+    height: 70vh;
+}
+
+.t1{
+    width: 100%;
+   color: #9C9692;
+font-size: 400%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:bold;
+padding-top: 7%;
+text-align: center;  
+}
+
+.t2{
+ width: 90%;
+   color: #A19D9A;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+padding-top: 4%;
+padding-left: 10%;
+text-align: center;   
+}
+
+.blok1{
+    display: flex;
+    margin-top: 7%;
+}
+
+.i1{
+    width: 40%;
+    margin-left: 7%;
+ filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+
+.i1:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+
+
+
+.i2{
+    width: 40%;
+    margin-left: 5%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+
+}
+
+.i2:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+
+.blok2{
+    display: flex;
+    margin-top: 5%;
+}
+
+.i3{
+    width: 25%;
+    margin-left: 7%;
+ filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+
+.i3:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+
+
+
+.i4{
+    width: 25%;
+    margin-left: 5%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+
+}
+
+.i4:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+.i5{
+    width: 25%;
+    margin-left: 5%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+
+}
+
+.i5:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.t3{
+  width: 90%;
+   color: #A19D9A;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+padding-top: 4%;
+padding-left: 10%;
+text-align: center;     
+}
+
+
+.blok3{
+    display: flex;
+    margin-top: 10%;
+}
+
+.slob{
+    width: 30%;
+    margin-left: 5%;
+     border-radius: 50%;
+}
+
+.line{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.text3{
+  width: 35%;
+   color: #A19D9A;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: justify;
+margin-top: 9%;
+margin-left: 3%
+    
+}
+
+.blok4{
+    display: flex;
+}
+
+.slob2{
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 7%;
+      border-radius: 50%;
+}
+
+.line2{
+    width: 20%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.text2{
+  width: 35%;
+   color: #A19D9A;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: justify;
+margin-top: 20%;
+margin-left: 6%
+    
+}
+
+.section4{
+    background-color: #E8E3DF;
+    height: 13vh;
+    margin-top: 4%;
+}
+
+.tt{
+    text-align: center;
+    font-size: 200%;
+line-height: 120%;
+font-family: Viaoda Libre;
+font-style:italic;
+font-weight:bold;
+     color: #A19D9A;
+    padding-top: 2%;
+}
