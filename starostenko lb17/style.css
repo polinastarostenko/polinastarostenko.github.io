@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+     background-image: url(img/photo1636306984.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.section1{
+   
+   display: flex; 
+}
+
+.text{
+      width: 50%;
+   color: #181818;
+font-size: 500%;
+line-height: 120%;
+font-family: Viaoda Libre;
+font-style:italic;
+font-weight:bold;
+padding-top: 9%;
+padding-left: 9%;
+
+}
+.photo1{
+    width: 30%;
+    
+  margin-left: 41%;
+    padding-top: 5%;
+    
+}
+
+
+.arrow-7 {
+    
+    width: 38px;
+    height: 100px;
+    padding-top: 25%;
+    margin-left: -30%;
+}
+.arrow-7 span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #554C48;
+    border-right: 5px solid #554C48;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+
+
+.section2{
+   
+}
+
+.onaste{
+     color: #181818;
+font-size: 400%;
+line-height: 120%;
+font-family: IBM Plex Sans;
+font-style:italic;
+font-weight:bold; 
+text-align: center;
+padding-top: 6%;
+
+}
+
+.line{
+    margin-left: 50%;
+    margin-top: 3%;
+    height: 20vh;
+}
+
+.text1{
+    width: 70%; 
+   color: #181818;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: center;
+margin-left: 15%;
+margin-top: 4%;
+}
+
+.imgs{
+    display: flex;
+}
+
+.ph1{
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 10%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+
+}
+
+
+.ph1:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.ph2{
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 10%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+
+}
+
+
+.ph2:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.ph3{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+
+}
+
+
+.ph3:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.text2{
+    width: 70%; 
+   color: #181818;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: center;
+margin-left: 15%;
+margin-top: 4%;
+}
+
+.section3{
+    background-color: #F7F8F3;
+    width: 90%;
+    height: 70vw;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.text3{
+    width: 70%; 
+   color: #181818;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:normal;
+text-align: center;
+margin-left: 15%;
+padding-top: 4%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.app__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  filter: blur(8px);
+  pointer-events: none;
+  user-select: none;
+  overflow: hidden;
+}
+.app__bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  opacity: 0.8;
+}
+.app__bg__image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translateX(var(--image-translate-offset, 0));
+  width: 180%;
+  height: 180%;
+  transition: transform 1000ms ease, opacity 1000ms ease;
+  overflow: hidden;
+}
+.app__bg__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.app__bg__image.current--image {
+  opacity: 1;
+  --image-translate-offset: 0;
+}
+.app__bg__image.previous--image, .app__bg__image.next--image {
+  opacity: 0;
+}
+.app__bg__image.previous--image {
+  --image-translate-offset: -25%;
+}
+.app__bg__image.next--image {
+  --image-translate-offset: 25%;
+}
+
+.cardList {
+  position: absolute;
+  width: calc(3 * var(--card-width));
+  height: auto;
+}
+.cardList__btn {
+  --btn-size: 35px;
+  width: var(--btn-size);
+  height: var(--btn-size);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+.cardList__btn.btn--left {
+  left: -5%;
+}
+.cardList__btn.btn--right {
+  right: -5%;
+}
+.cardList__btn .icon {
+  width: 100%;
+  height: 100%;
+}
+.cardList__btn .icon svg {
+  width: 100%;
+  height: 100%;
+}
+.cardList .cards__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+
+.card {
+  --card-translateY-offset: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translateX(var(--card-translateX-offset)) translateY(var(--card-translateY-offset)) rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
+  display: inline-block;
+  width: var(--card-width);
+  height: var(--card-height);
+  transition: transform var(--card-transition-duration) var(--card-transition-easing);
+  user-select: none;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  transition: opacity var(--card-transition-duration) var(--card-transition-easing);
+  opacity: calc(1 - var(--opacity));
+}
+.card__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.card__image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card.current--card {
+  --current-card-rotation-offset: 0;
+  --card-translateX-offset: 0;
+  --card-rotation-offset: var(--current-card-rotation-offset);
+  --card-scale-offset: 1.2;
+  --opacity: 0.8;
+}
+.card.previous--card {
+  --card-translateX-offset: calc(-1 * var(--card-width) * 1.1);
+  --card-rotation-offset: 25deg;
+}
+.card.next--card {
+  --card-translateX-offset: calc(var(--card-width) * 1.1);
+  --card-rotation-offset: -25deg;
+}
+.card.previous--card, .card.next--card {
+  --card-scale-offset: 0.9;
+  --opacity: 0.4;
+}
+
+.infoList {
+  position: absolute;
+  width: calc(3 * var(--card-width));
+  height: var(--card-height);
+  pointer-events: none;
+}
+.infoList .info__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.info {
+  margin-bottom: calc(var(--card-height) / 8);
+  margin-left: calc(var(--card-width) / 1.5);
+  transform: translateZ(2rem);
+  transition: transform var(--card-transition-duration) var(--card-transition-easing);
+}
+.info .text {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: calc(var(--card-width) * var(--text-size-offset, 0.2));
+  white-space: nowrap;
+  color: #fff;
+  width: fit-content;
+}
+.info .name,
+.info .location {
+  text-transform: uppercase;
+}
+.info .location {
+  font-weight: 800;
+}
+.info .location {
+  --mg-left: 40px;
+  --text-size-offset: 0.12;
+  font-weight: 600;
+  margin-left: var(--mg-left);
+  margin-bottom: calc(var(--mg-left) / 2);
+  padding-bottom: 0.8rem;
+}
+.info .location::before, .info .location::after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  left: 0%;
+  transform: translate(calc(-1 * var(--mg-left)), -50%);
+}
+.info .location::before {
+  top: 50%;
+  width: 20px;
+  height: 5px;
+}
+.info .location::after {
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+}
+.info .description {
+  --text-size-offset: 0.065;
+  font-weight: 500;
+}
+.info.current--info {
+  opacity: 1;
+  display: block;
+}
+.info.previous--info, .info.next--info {
+  opacity: 0;
+  display: none;
+}
+
+.loading__wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  z-index: 200;
+}
+.loading__wrapper .loader--text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+.loading__wrapper .loader {
+  position: relative;
+  width: 200px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.25);
+}
+.loading__wrapper .loader span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+@media only screen and (min-width: 800px) {
+  :root {
+    --card-width: 250px;
+    --card-height: 400px;
+  }
+}
+.support {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  display: flex;
+}
+.support a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.8rem;
+  backface-visibility: hidden;
+  transition: all 150ms ease;
+}
+.support a:hover {
+  transform: scale(1.1);
+}
+
+.section4{
+    display: flex;
+    margin-top: 5%;
+}
+
+.im1{
+    width: 25%;
+    margin-left: 90%;
+}
+
+.im2{
+    width: 25%;
+    margin-left: 40%;
+}
+
+.im3{
+    width: 25%;
+    margin-left: -10%;
+}
+
+.section5{
+    background-color: #F7F8F3;
+    height: 5vh;
+    margin-top: 4%;
+    
+}
+
+.polinass{
+     
+   color: #000;
+font-size: 130%;
+line-height: 120%;
+font-family: Iceland;
+font-style:oblique;
+font-weight:lighter;
+text-align: center; 
+
+    
+}
