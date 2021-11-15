@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.section1{
+   
+  display: flex;  
+}
+
+
+.text{
+      width: 50%;
+   color: #181818;
+font-size: 500%;
+line-height: 120%;
+font-family: Viaoda Libre;
+font-style:italic;
+font-weight:bold;
+padding-top: 15%;
+padding-left: 9%;
+
+}
+.blok{
+  background-image: url(img/photo1636895770.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%; 
+    height: 130vw;
+}
+.photo1{
+    width: 30%;
+    
+  margin-left: 35%;
+    padding-top: 5%;
+    border-radius: 20%;
+    
+}
+hr
+{
+     border: none; /* Убираем границу */
+    background-color: #000; /* Цвет линии */
+ 
+    height: 2px; /* Толщина линии */
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 5%;
+    
+}
+
+
+.arrow-7 {
+    
+    width: 38px;
+    height: 100px;
+    padding-top: 38%;
+    margin-left: -30%;
+}
+.arrow-7 span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #554C48;
+    border-right: 5px solid #554C48;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+
+
+.section{
+    background-color: #E9F1F6;
+    height: 5vh;
+    
+}
+
+.polinas{
+     
+   color: #000;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:oblique;
+font-weight:lighter;
+text-align: center; 
+
+    
+}
+
+.section2{
+    display: flex;
+    margin-left: 20%;
+    
+}
+
+.colom1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+   
+}
+
+.school{
+    
+   color: #C68D72;
+font-size: 200%;
+line-height: 120%;
+font-family: Iceland;
+font-style:oblique;
+font-weight:bolder;
+text-align: center;  
+margin-left: -17%;
+}
+
+.schools{
+  width: 80%;  
+   color: #000;
+font-size: 100%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: left; 
+margin-top: 4%;
+}
+
+.pho{
+    width: 80%;
+    margin-top: 4%;
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    display: inline-block;
+   }
+   .pho:hover {
+    outline: 4px solid #000; /* Чёрная рамка */
+   
+}
+
+
+.colom2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+   
+}
+
+.school1{
+   
+   color: #C68D72;
+font-size: 200%;
+line-height: 120%;
+font-family: Iceland;
+font-style:oblique;
+font-weight:bolder;
+text-align: center;  
+margin-top: 4%;
+margin-left: -35%;
+}
+
+.schools2{
+   width: 60%; 
+   color: #000;
+font-size: 100%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+text-align: left; 
+margin-top: 4%;
+}
+
+.pho1{
+    width: 60%;
+   
+   border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    display: inline-block;
+   }
+   .pho1:hover {
+    outline: 4px solid #000; /* Чёрная рамка */
+   
+}
+
+.section3{
+  background-image: url(img/JGB.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    width: 100%;   
+background-attachment: fixed; 
+    
+}
+
+.text6{
+     color: #000;
+font-size: 500%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:bold;  
+text-align: center;
+margin-top: 3%;
+
+}
+
+.img1{
+    width: 25%;
+    height: 35vw;
+    margin-left: 7%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}	
+
+.img1:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+      border-radius: 50%;
+}
+
+
+.img2{
+    width: 25%;
+    height: 35vw;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}
+
+.img2:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+      border-radius: 50%;
+}
+
+.img3{
+    width: 25%;
+    height: 35vw;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: all 0.5s ease;
+}
+
+.img3:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+      border-radius: 50%;
+}
+
+.images{
+    display: flex;
+}
+
+.section4{
+    display: flex;
+    margin-top: 5%;
+    
+}
+.p1{
+    width: 30%;
+    margin-left: 15%;
+    transition: all 0.5s ease;
+}
+
+.p1:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+    border-radius: 50%;
+}
+
+
+
+.p2{
+    width: 30%;
+    margin-left: 10%;
+    transition: all 0.5s ease;
+}
+
+.p2:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+
+  border-radius: 50%;
+}
+
+.section5{
+    background-color: #E9F1F6;
+    height: 5vh;
+    margin-top: 4%;
+    
+}
+
+.polinass{
+     
+   color: #000;
+font-size: 130%;
+line-height: 120%;
+font-family: Iceland;
+font-style:oblique;
+font-weight:lighter;
+text-align: center; 
+
+    
+}
