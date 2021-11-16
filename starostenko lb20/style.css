@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.img{
+    
+     width: 90%;
+   margin-left: 5%;
+margin-top: 4%;
+    display: flex;
+}
+
+.t1{
+      
+   color: #000;
+font-size: 500%;
+line-height: 120%;
+font-family: Viaoda Libre;
+
+font-style:italic;
+font-weight:bold;
+text-align: center;
+padding-top: 5%;
+
+}
+
+.t2{
+     width: 30%;
+   color: #ffffff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+margin-top: -80%;
+margin-left: 8%;
+text-align: left;
+}
+
+.section2{
+    background-image: url(img/rpza.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    margin-top: 65%;
+}
+
+.t3{
+     width: 100%;
+   color: #fff;
+font-size: 400%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:normal;
+padding-top: 7%;
+text-align: center;  
+}
+
+.t4{
+    width: 90%;
+   color: #fff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+padding-top: 4%;
+padding-left: 10%;
+text-align: center;   
+}
+
+.t5{
+     width: 100%;
+   color: #000;
+font-size: 400%;
+line-height: 120%;
+font-family: Iceland;
+font-style:italic;
+font-weight:normal;
+padding-top: 7%;
+text-align: center;  
+}
+
+.blok1{
+    display: flex;
+    margin-top: 6%;
+}
+
+.i1{
+    width: 25%;
+    margin-left: 6%;
+ transition: all 0.5s ease;
+}	
+
+.i1:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.i2{
+    width: 25%;
+    margin-left: 6%;
+    transition: all 0.5s ease;
+}	
+
+.i2:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+
+}
+
+.i3{
+    width: 25%;
+    margin-left: 6%;
+    transition: all 0.5s ease;
+}	
+
+.i3:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+
+
+}
+
+.blok2{
+    display: flex;
+    margin-top: 4%;
+}
+
+.im1{
+    width: 25%;
+    margin-left: 6%;
+}
+
+.im2{
+    width: 25%;
+    margin-left: 6%;
+}
+
+.im3{
+    margin-left: 6%;
+    width: 25%;
+}
+
+.p1{
+    width: 20%;
+    margin-left: -84%;
+    color: #fff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+
+text-align: center;
+margin-top: 2.5%;
+}
+
+.p2{
+ width: 20%;   
+margin-left: 10.5%;
+     color: #fff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+
+text-align: center;
+margin-top: 5%;
+}
+
+.p3{
+ width: 20%;   
+margin-left: 11.5%;
+      color: #fff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+
+text-align: center;
+margin-top: 3%;
+}
+
+
+
+
+
+
+
+.blok3{
+    display: flex;
+    margin-top: 6%;
+}
+
+.i4{
+    width: 35%;
+    margin-left: 11%;
+ transition: all 0.5s ease;
+}	
+
+.i4:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+}
+
+.i5{
+    width: 35%;
+    margin-left: 6%;
+    transition: all 0.5s ease;
+}	
+
+.i5:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+
+}
+
+.i6{
+    width: 35%;
+    margin-left: 6%;
+    transition: all 0.5s ease;
+}	
+
+.i6:hover {
+	box-shadow: 0 30px 40px rgba(0,0,0,0.3);
+	transform: scale(1.2);
+
+
+}
+
+.blok4{
+    display: flex;
+    margin-top: 4%;
+}
+
+.im4{
+    width: 35%;
+    margin-left: 11%;
+    height: 15vw;
+}
+
+.im5{
+    width: 35%;
+    height: 15vw;
+    margin-left: 6%;
+}
+
+.im6{
+    margin-left: 6%;
+    width: 25%;
+}
+
+.p4{
+    width: 20%;
+    margin-left: -69%;
+    color: #fff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+
+text-align: center;
+margin-top: 4.5%;
+}
+
+.p5{
+ width: 20%;   
+margin-left: 22%;
+     color: #fff;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+
+text-align: center;
+margin-top: 6%;
+}
+
+.p6{
+ width: 20%;   
+margin-left: 11.5%;
+      color: #000;
+font-size: 150%;
+line-height: 120%;
+font-family: Iceland;
+font-style:normal;
+font-weight:lighter;
+
+text-align: center;
+margin-top: 5%;
+}
+
+.section5{
+    background-color: #96A59F;
+    height: 5vh;
+    margin-top: 4%;
+    
+}
+
+.polinass{
+     
+   color: #000;
+font-size: 130%;
+line-height: 120%;
+font-family: Iceland;
+font-style:oblique;
+font-weight:lighter;
+text-align: center; 
+
+    
+}
