@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/quiz.css">
+    <title>Quiz</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+</head>
+
+<body>
+     <div class="backk"> 
+ <h1>Какой ты овощ?</h1>
+        <div class="line"></div>
+    <div class="container">
+        <div class="site-header"></div>
+       
+        <main>
+                    
+            
+            
+  
+
+      <script id="rendered-js" >
+$('#menu-burger').click(function () {
+  var overlayMenu = $('#overlay-menu'),
+  menuIconLines = $('#menu-burger .menu-icon'),
+  menuBurger = $('#menu-burger');
+
+  if (overlayMenu.hasClass('open')) {
+    overlayMenu.removeClass('open');
+    menuIconLines.removeClass('open');
+    menuBurger.removeClass('open');
+  } else {overlayMenu.addClass('open');
+    menuIconLines.addClass('open');
+    menuBurger.addClass('open');
+  };
+
+
+});
+    </script> 
+            <div class="question"></div>
+            <ul class="answer"></ul>
+            </main>
+
+    <script src="js/quiz_data.js"></script>
+    <script src="js/quiz_answer.js"></script>
+    <script src="js/quiz_code.js"></script>
+    </div>
+</body>
+
+</html>
